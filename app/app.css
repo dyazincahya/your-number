@@ -1,0 +1,179 @@
+﻿/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme. 
+The imported CSS rules must precede all other types of rules.
+*/
+@import 'nativescript-theme-core/css/core.light.css';
+
+/*
+The following CSS rule changes the font size of all UI
+components that have the btn class name.
+*/
+.btn {
+    font-size: 18;
+}
+
+actionBar{
+	background-color: #009688;
+	color: #FFFFFF;
+	text-transform: capitalize;
+}
+
+.fa-nuetral {
+    font-family: "Font Awesome 5 Free-Solid-900";
+}
+
+.fa {
+    font-family: "Font Awesome 5 Free-Solid-900";
+    font-size: 28;
+    font-weight: normal;
+    text-align: center;
+}
+
+.fa-2x {
+	font-family: "Font Awesome 5 Free-Solid-900";
+    font-size: 42;
+    font-weight: normal;
+    text-align: center;
+}
+
+.fa-3x {
+	font-family: "Font Awesome 5 Free-Solid-900";
+    font-size: 56;
+    font-weight: normal;
+    text-align: center;
+}
+
+.fa-4x {
+	font-family: "Font Awesome 5 Free-Solid-900";
+    font-size: 70;
+    font-weight: normal;
+    text-align: center;
+}
+
+.l-center {
+	text-align: center;
+}
+
+.white {
+	color: #FFFFFF;
+}
+
+.page{
+    background-color: #009688;
+}
+
+.table {
+    padding: 20;
+    text-align: center;
+}
+
+.table .iteml {
+    border-color: #00af9e;
+    border-width: 3;
+    padding: 15;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 5;
+    margin: 5;
+    text-align: center;
+    font-size: 18;
+}
+
+.table .active {
+    border-color: #FFFFFF;
+    border-width: 3;
+    padding: 15;
+    background-color: #FFFFFF;
+    color: #009688;
+    font-weight: bold;
+    border-radius: 5;
+    margin: 5;
+    text-align: center;
+    font-size: 18;
+}
+
+.header {
+    color: #FFFFFF;
+    font-size: 22;
+    text-align: center;
+    margin-top: 35;
+    margin-bottom: 10;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .caption {
+    color: #FFFFFF;
+    font-size: 18;
+    padding: 8;
+}
+
+.footer .caption-badge {
+    border-color: #FFFFFF;
+    border-radius: 5;
+    border-width: 3;
+    color: #FFFFFF;
+    font-size: 10;
+    padding: 3;
+    width: 70;
+}
+
+.btn-default {
+    background-color: #FFFFFF;
+    color: #009688;
+    border-radius: 5;
+    width: 70;
+}
+
+.btn-danger {
+    background-color: #F44336;
+    color: #FFFFFF;
+    border-radius: 5;
+    width: 70;
+}
+
+.spliter {
+    padding: 10;
+}
+
+.btn-reload {
+    width: 60;
+    height: 60;
+    padding: 5;
+}
+
+.the-loading{
+    z-index:9999;
+    background-color:#bb000000;
+    min-height:100;
+    width:100%;
+    height:100%;
+    text-align: center;
+    color: #009688;
+}
+
+.summary {
+    margin-top: 25;
+    padding: 5;
+    text-align: center;
+}
+
+.summary .iteml {
+    border-color: #00af9e;
+    border-bottom-width: 3;
+    padding: 10;
+    color: #FFFFFF;
+    margin: 5;
+    text-align: center;
+    font-size: 14;
+}

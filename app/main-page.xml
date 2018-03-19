@@ -1,0 +1,31 @@
+<Page 
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    loaded="onloaded" 
+    actionBarHidden="true"
+    class="page">
+
+    <GridLayout 
+        textAlignmet="center"
+        height="100%" 
+        width="100%" 
+        columns="*, auto, *"
+        rows="*, auto, auto, auto, *, auto">
+        <Label row="0" col="1" />
+        <Label row="1" col="1" class="title" text="Your number" />
+        <Label row="2" col="1" class="subtitle" text="Think of one number 1 until 31, then I'll guess it." />
+        <StackLayout 
+            row="3" 
+            col="1"
+            tap="table1"
+            orientation="vertical">
+            <Label class="fa-4x white" text="&#xf144;" />
+            <Label class="caption-button" text="Let's play" />
+        </StackLayout>
+        <StackLayout 
+            class="footer"
+            row="5" 
+            col="1">
+            <Label text="Development by k4ng" />
+        </StackLayout>
+    </GridLayout>
+</Page>

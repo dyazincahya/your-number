@@ -1,0 +1,88 @@
+<Page 
+    xmlns="http://schemas.nativescript.org/tns.xsd" 
+    loaded="onloaded" 
+    actionBarHidden="true"
+    class="page">
+
+    <AbsoluteLayout width="100%" height="100%">
+        <GridLayout 
+            visibility="{{ showstep ? 'visible' : 'collapsed' }}"
+            rows="auto, auto, auto, auto" 
+            width="100%" 
+            height="100%" >
+
+            <StackLayout row="0" class="header">
+                <Label text="&#xf002; Find your number!" class="fa-nuetral" />
+            </StackLayout>
+
+            <StackLayout row="1" class="body">       
+                <Repeater items="{{ data }}" width="100%">
+                    <Repeater.itemsLayout>
+                       <GridLayout 
+                        class="table"
+                        height="100%" 
+                        width="100%" 
+                        columns="*, auto, auto, auto, auto, *"
+                        rows="auto, auto, auto, auto, *" />
+                    </Repeater.itemsLayout>
+                    <Repeater.itemTemplate>
+                        <Label row="{{ row }}" col="{{ col }}" text="{{ num }}" class="{{ cls }}" />
+                    </Repeater.itemTemplate>
+                </Repeater>
+            </StackLayout>
+
+            <StackLayout row="2" class="footer">
+                <Label text="{{ 'Step '+ step +' of 5' }}" class="caption-badge" />
+                <Label text="Is your number here?" class="caption" />
+                <GridLayout columns="*, auto, auto, auto, *">
+                    <Button col="1" text="Yes" class="btn-default" tap="yes" />
+                    <Label col="2" class="spliter" />
+                    <Button col="3" text="No" class="btn-danger" tap="no" />
+                </GridLayout>
+            </StackLayout>
+        </GridLayout>
+
+        <GridLayout 
+            visibility="{{ showresult ? 'visible' : 'collapsed' }}"
+            rows="auto, auto, auto, auto" 
+            width="100%" 
+            height="100%" >
+
+            <StackLayout row="0" class="header">
+                <Label text="&#xf120; SUMMARY" class="fa-nuetral" />
+            </StackLayout>
+
+            <StackLayout row="1" class="body">    
+                <Repeater items="{{ reports }}" width="100%">
+                    <Repeater.itemsLayout>
+                       <GridLayout 
+                        class="summary"
+                        height="100%" 
+                        width="100%" 
+                        columns="*, auto, *"
+                        rows="auto, auto, auto, auto, auto" />
+                    </Repeater.itemsLayout>
+                    <Repeater.itemTemplate>
+                        <StackLayout orientation="horizontal" row="{{ row }}" col="1">
+                            <Label text="{{ 'Step &#xf061; ' + step }}" color="#FFFFFF" class="fa-nuetral iteml" />
+                            <Label text="{{ (numb) ? 'YES' : 'NO' }}" color="#FFFFFF" class="iteml" />
+                        </StackLayout>
+                    </Repeater.itemTemplate>
+                </Repeater>
+            </StackLayout>
+
+            <StackLayout row="2" class="footer">
+                <Label text="{{ 'The number you have in mind is ' + result }}" class="caption" />
+                <!-- <Label text="{{ 'RESULT &#xf061; ' + result }}" class="caption fa-nuetral" /> -->
+                <GridLayout columns="*, auto, auto, auto, *" marginTop="35">
+                    <Button col="2" text="&#xf015;" class="spliter btn-default fa" tap="xreload" />
+                </GridLayout>
+            </StackLayout>
+        </GridLayout>
+
+        <StackLayout horizontalAlignment="center" verticalAlignment="center" class="the-loading" visibility="{{ isLoading ? 'visible' : 'collapsed' }}">
+            <ActivityIndicator busy="true" />
+            <Label text="{{ loadingText }}" fontSize="18" />
+        </StackLayout>
+    </AbsoluteLayout>
+</Page>
