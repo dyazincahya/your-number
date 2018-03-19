@@ -78,7 +78,7 @@ function commonProccess(exe=false)
 			context.set("showresult", true);
 			context.set("reports", context.report);
 			context.set("isLoading", false);
-		}, 5000);
+		}, conf.timeloader+2850);
 	}
 }
 
@@ -103,7 +103,7 @@ exports.onloaded = function(args)
     	context.set("idx", firstVal);
     	renderNumber(arrIdx);
     	context.ofTables.splice(context.ofTables.indexOf(firstVal), 1);
-    }, conf.timeloader+1850);
+    }, conf.timeloader+550);
 
     page.bindingContext = context;
 };
@@ -120,7 +120,7 @@ exports.yes = function()
 	context.set("loadingText", "Push data...");
 	timerModule.setTimeout(function(){
 		commonProccess(true);
-	}, conf.timeloader+850);
+	}, conf.timeloader+150);
 };
 
 exports.no = function(){
@@ -134,7 +134,7 @@ exports.no = function(){
 	context.set("loadingText", "Push data...");
 	timerModule.setTimeout(function(){
 		commonProccess(false);
-	}, conf.timeloader+850);
+	}, conf.timeloader+150);
 };
 
 exports.xreload = function() {
