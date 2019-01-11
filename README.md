@@ -10,4 +10,4 @@
 - XML
 
 ## Try
-[PLAYSTORE](https://play.google.com/store/apps/details?id=com.kang.cahya.your.number) 
+[Download In Playstore](https://play.google.com/store/apps/details?id=com.kang.cahya.your.number) 
