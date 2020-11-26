@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Your Number 
+> I can know what do you think!
 
-You can use the [editor on GitHub](https://github.com/dyazincahya/your-number/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<img src="https://github.com/k4ng/your-number/blob/master/app/App_Resources/Android/drawable-xxxhdpi/icon.png" data-canonical-src="https://github.com/k4ng/your-number/blob/master/app/App_Resources/Android/drawable-xxxhdpi/icon.png" width="150" /> <img src="https://lh3.googleusercontent.com/H49AEWU9Zb2PnE4m24dFycKuV1ItvphxHTwDaOr5T6IolU2YtrIGbaRJ_Uug-0ADnA=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/H49AEWU9Zb2PnE4m24dFycKuV1ItvphxHTwDaOr5T6IolU2YtrIGbaRJ_Uug-0ADnA=w1869-h953-rw" width="150" /> <img src="https://lh3.googleusercontent.com/YGgNftdd3am6pSFPP-WBwkVkfXSq3gFHONeav39GG8Rl4Aq_HU8FPTVJseUbi4whfmE=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/YGgNftdd3am6pSFPP-WBwkVkfXSq3gFHONeav39GG8Rl4Aq_HU8FPTVJseUbi4whfmE=w1869-h953-rw" width="150" /> <img src="https://lh3.googleusercontent.com/2ongA1i7WFTXV6MzT8GKdqrv7eHCGku11ctrG68glyuYi7gIcgvGFnYKN0rnBaKQGWs=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/2ongA1i7WFTXV6MzT8GKdqrv7eHCGku11ctrG68glyuYi7gIcgvGFnYKN0rnBaKQGWs=w1869-h953-rw" width="150" /> <img src="https://lh3.googleusercontent.com/d30s69wslA9e2qeEPhbvX3vTtmGSeVqpT8Ubm3Q2-9PFR5dZiqLu3aS9KCwLmtMF9Zk=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/d30s69wslA9e2qeEPhbvX3vTtmGSeVqpT8Ubm3Q2-9PFR5dZiqLu3aS9KCwLmtMF9Zk=w1869-h953-rw" width="150" /> <img src="https://lh3.googleusercontent.com/HormyXrMMhb_8kluPmMp58l914caBpf0uBWC773sKMzbWHhKq7fpdB-PdknCx_W5kuY=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/HormyXrMMhb_8kluPmMp58l914caBpf0uBWC773sKMzbWHhKq7fpdB-PdknCx_W5kuY=w1869-h953-rw" width="150" /> <img src="https://lh3.googleusercontent.com/8koesJ6QYazFpJahIqVwRfa21JuToA54Prehf5wOLwleBojYvwbQ4FFAJ63tqMn9Hw=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/8koesJ6QYazFpJahIqVwRfa21JuToA54Prehf5wOLwleBojYvwbQ4FFAJ63tqMn9Hw=w1869-h953-rw" width="150" /> <img src="https://lh3.googleusercontent.com/8JfDkdHX8-u4rBRTNaV7M2D7Y2CIJjGE-anZSHs_DDW_kxWmDCx4LueC3zR05iN048Gg=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/8JfDkdHX8-u4rBRTNaV7M2D7Y2CIJjGE-anZSHs_DDW_kxWmDCx4LueC3zR05iN048Gg=w1869-h953-rw" width="150" /> <img src="https://lh3.googleusercontent.com/jGlKdydeJqvKnNfw_YARNMgjGYLaH2BKk6n7gQ3efyLG8f62nRdk1ncVQaO2UATCDQ=w1869-h953-rw" data-canonical-src="https://lh3.googleusercontent.com/jGlKdydeJqvKnNfw_YARNMgjGYLaH2BKk6n7gQ3efyLG8f62nRdk1ncVQaO2UATCDQ=w1869-h953-rw" width="150" />
 
-### Markdown
+## Build with
+- Nativescript 3.2.x
+- Javascript
+- XML
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dyazincahya/your-number/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Try
+[Download In Playstore](https://play.google.com/store/apps/details?id=com.kang.cahya.your.number) 
